@@ -1,0 +1,131 @@
+
+/* *{
+    margin: 0;
+} */
+body{
+    margin: 0px;
+    background-image: url(./assets/bg.png);
+    /* background-size: auto;
+    height: auto; */
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: ; */
+    height: 132vh;
+
+    
+    
+
+    
+    
+    /* width: 100%; */
+    /* font-family: 'Montserrat'; */
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    justify-content: center;
+    color: #fff;
+    right: 0;
+    left: 0;
+    padding: 18px 40px;
+    align-items: center;
+    
+}
+
+.line{
+    font-size: 50px;
+    margin: auto 30px auto 50px;
+    font-weight:5 ;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.logo{
+
+    width: 70%;
+    cursor: pointer;
+    
+}
+.grow-list{
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: row;
+}
+
+.list{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.list >li{
+    margin: 0 20px;
+}
+
+.apps::after{
+    content: ">";
+    display: inline-block;
+    align-items: center;
+    padding: 5px 5px 10px;
+    transform: rotate(90deg);
+    /* margin: px 0px 0px 2px; */
+    
+}
+nav button{
+    margin-top:18px ;
+    text-align: right;
+    margin-left:400px ;
+    background-color: #ba0cc5;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+
+.hero{
+
+    margin: 130px auto 0 auto;
+    text-align: center;
+}
+
+.hero >h1{
+    font-size: 4.5rem;
+    
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Montserrat';
+    
+}
+
+
+.hero-description{
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+.button-large{
+
+    margin-top: 30px;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #ba0cc5;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
